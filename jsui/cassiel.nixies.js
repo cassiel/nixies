@@ -93,9 +93,8 @@ function announce() {
 	var g = new Global(MYGLOBAL);
 
 	if (g.announced === undefined) {
-		post("Nixie $Id$\n");
-		post("Nick Rothwell, nick@loadbang.net / nick@cassiel.com\n");
-		post("Nixie images courtesy of Mike Harrison, http://www.electricstuff.co.uk\n");
+        post("| cassiel.nixies\n");
+		post("| nick rothwell, nick@cassiel.com / http://cassiel.com\n");
 		g.announced = true;
 	}
 }

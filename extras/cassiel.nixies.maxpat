@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 123.0, 126.0, 1163.0, 600.0 ],
+		"rect" : [ 457.0, 1253.0, 1163.0, 600.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -73,7 +73,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 400.0, 72.0, 20.0 ],
+					"patching_rect" : [ 405.0, 400.0, 77.0, 20.0 ],
 					"style" : "cassiel",
 					"triscale" : 0.9
 				}
@@ -95,7 +95,7 @@
 ,
 					"style" : "cassiel",
 					"text" : "pattrstorage",
-					"varname" : "u770000408"
+					"varname" : "u377000642"
 				}
 
 			}
@@ -114,7 +114,7 @@
 ,
 					"style" : "cassiel",
 					"text" : "autopattr",
-					"varname" : "u083000422"
+					"varname" : "u006000655"
 				}
 
 			}
@@ -199,7 +199,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -212,7 +211,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -232,7 +230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 205.0, 52.0, 37.0 ]
+					"patching_rect" : [ 75.0, 205.0, 52.0, 37.0 ]
 				}
 
 			}
@@ -245,7 +243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.0, 205.0, 52.0, 37.0 ]
+					"patching_rect" : [ 15.0, 205.0, 52.0, 37.0 ]
 				}
 
 			}
@@ -362,19 +360,17 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 205.0, 102.0, 37.0 ]
+					"patching_rect" : [ 136.0, 205.0, 102.0, 37.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.0, 35.0, 222.0, 20.0 ],
+					"patching_rect" : [ 439.0, 35.0, 222.0, 18.0 ],
 					"style" : "cassiel",
 					"text" : "Nixie digits for Max/MSP"
 				}
@@ -382,7 +378,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-35",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -396,7 +391,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-36",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -410,13 +404,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-37",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.0, 478.0, 204.0, 42.0 ],
+					"patching_rect" : [ 574.0, 478.0, 210.0, 42.0 ],
 					"style" : "cassiel",
 					"text" : "Values can be saved via pattr (although we don't do any output)"
 				}
@@ -484,7 +477,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 99.5, 184.0, 24.5, 184.0 ],
+					"midpoints" : [ 99.5, 184.0, 84.5, 184.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -492,7 +485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 143.5, 190.0, 77.5, 190.0 ],
+					"midpoints" : [ 143.5, 190.0, 24.5, 190.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -500,7 +493,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 187.5, 197.0, 130.5, 197.0 ],
+					"midpoints" : [ 187.5, 197.0, 145.5, 197.0 ],
 					"source" : [ "obj-20", 2 ]
 				}
 
@@ -584,14 +577,9 @@
 		"styles" : [ 			{
 				"name" : "cassiel",
 				"default" : 				{
-					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
-					"fontface" : [ 0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"fontname" : [ "Courier" ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -601,7 +589,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"fontface" : [ 0 ],
+					"fontname" : [ "Courier" ],
+					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
